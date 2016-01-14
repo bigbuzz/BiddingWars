@@ -1,6 +1,7 @@
 contract BiddingWars {
     
-    
+    // Changed
+
     struct Bidder
     {
         address entity;         // Person or business entity 
