@@ -1,13 +1,14 @@
 contract BiddingWars {
     
-    // Changed
+    // Changed 
+    // Changes 2
 
     struct Bidder
     {
         address entity;         // Person or business entity 
         bool isCashBuyer;       // cash buyer may have priority
     }
-    
+      
     // variables 
     address public propertyOwner;       // Property owner
     address public highestBidder;       // 
